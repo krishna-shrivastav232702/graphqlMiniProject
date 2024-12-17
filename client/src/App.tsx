@@ -1,6 +1,15 @@
+import { gql } from '@apollo/client'
 import './App.css'
 
 function App() {
-  return(<>Hello</>)
+  const que = gql`#graphql
+  
+  `
+
+  return (
+    <div>
+      <h1>WOAA</h1>
+    </div>
+  )
 }
 export default App
