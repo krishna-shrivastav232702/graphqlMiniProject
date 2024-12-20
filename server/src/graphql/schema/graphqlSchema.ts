@@ -1,5 +1,5 @@
 export const graphqlSchema = `#graphql
-    type StockPrice{
+    type stockPrice{
       symbol:String!
       regularMarketPrice:Float
       regularMarketChange:Float

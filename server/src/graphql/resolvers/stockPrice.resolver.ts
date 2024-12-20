@@ -6,7 +6,7 @@ export const getStockPrice = async(_:any,{symbol}:{symbol:string})=>{
     url:'https://yahoo-finance166.p.rapidapi.com/api/stock/get-price',
     params: {
       region: 'US',
-      symbol: 'AAPL'
+      symbol: symbol
     },
     headers:{
       'x-rapidapi-key':process.env.RAPID_API_KEY,

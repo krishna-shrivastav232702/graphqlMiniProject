@@ -1,15 +1,13 @@
-import { gql } from '@apollo/client'
 import './App.css'
+import StockChart from './graphql/stockChart'
 
 function App() {
-  const que = gql`#graphql
-  
-  `
 
   return (
     <div>
-      <h1>WOAA</h1>
-    </div>
+      <h1>Stock Chart Viewer</h1>
+      <StockChart symbol="AAPL" range="1mo" interval="1d" />
+      </div>
   )
 }
 export default App
